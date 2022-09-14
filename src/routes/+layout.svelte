@@ -13,8 +13,13 @@
 </header>
 
 <style>
+
+* {
+    color: var(--fontColor);
+    font-family: calibri;
+}
     header {
-    height: 35px;
+    height: 30px;
     max-width: 100vw;
     position: fixed;
     top: 0;
@@ -40,11 +45,13 @@
   
 .nav_links {
   list-style: none;
+  
 }
 
 .nav_links li {
   display: inline-block;
   padding: 0px 20px;
+  
 }
 
 .nav_links li a {
